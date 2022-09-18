@@ -2,6 +2,7 @@
   "name": "graphcms-blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blogs.shreebalajiitraders.com",
   "engines": {
     "node": ">=14.0"
   },
