@@ -17,7 +17,7 @@ const Header = () => {
       <div className="border-b w-full inline-block border-white-400 py-8">
         <div className="cursor-pointer md:float-left block">
           <Link href="/">
-            <div className=''>
+            <div>
               <Image src="/rudralogo.png" height={70} width={130}/>
             </div>
           </Link>
