@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://blogs.shreebalajiitraders.com",
   "engines": {
-    "node": ">=14.0"
+    "node": ">=16.17.0"
   },
   "engineStrict": true,
   "scripts": {
