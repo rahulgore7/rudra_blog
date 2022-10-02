@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import { getCategories } from '../services';
 
 const Header = () => {
-  const [setCategories] = useState([]);
+  const [categories, setCategories] = useState([]);
 
   useEffect(() => {
     getCategories().then((newCategories) => {
@@ -17,7 +17,7 @@ const Header = () => {
       <div className="border-b w-full inline-block border-white-400 py-8">
         <div className="cursor-pointer md:float-left block">
           <Link href="/">
-            <div>
+            <div className=''>
               <Image src="/rudralogo.png" height={70} width={130}/>
             </div>
           </Link>
