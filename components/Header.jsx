@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { getCategories } from '../services';
 
 const Header = () => {
-  const [categories, setCategories] = useState([]);
+  const [setCategories] = useState([]);
 
   useEffect(() => {
     getCategories().then((newCategories) => {
