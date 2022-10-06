@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getCategories } from '../services';
 
 const Header = () => {
-  const [categories, setCategories] = useState([]);
+  const [setCategories] = useState([]);
 
   useEffect(() => {
     getCategories().then((newCategories) => {
