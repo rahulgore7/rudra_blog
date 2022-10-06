@@ -18,7 +18,6 @@ module.exports = {
     'react',
   ],
   rules: {
-    'indent': 'off',
     'jsx-a11y/label-has-associated-control': 0,
     'react/jsx-props-no-spreading': 0,
     'react/react-in-jsx-scope': 0,
