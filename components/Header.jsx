@@ -3,6 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getCategories } from '../services';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of a15a533 (ee)
 const Header = () => {
   const [categories, setCategories] = useState([]);
 
