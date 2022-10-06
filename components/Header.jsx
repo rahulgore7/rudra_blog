@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { getCategories } from '../services';
 
 const Header = () => {
-  const [setCategories] = useState([]);
+  const [categories, setCategories] = useState([]);
 
   useEffect(() => {
     getCategories().then((newCategories) => {
