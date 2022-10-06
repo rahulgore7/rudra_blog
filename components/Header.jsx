@@ -18,7 +18,7 @@ const Header = () => {
         <div className="cursor-pointer md:float-left block">
           <Link href="/">
             <div className=''>
-              <Image src="/rudralogo.png" height={140} width={130}/>
+              <Image src="/rudralogo.png" height={70} width={130}/>
             </div>
           </Link>
         </div>
