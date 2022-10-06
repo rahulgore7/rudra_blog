@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { getCategories } from '../services';
 
 const Header = () => {
-  const [categories, setCategories] = useState([]);
+  const [setCategories] = useState([]);
 
   useEffect(() => {
     getCategories().then((newCategories) => {
@@ -17,7 +17,7 @@ const Header = () => {
       <div className="border-b w-full inline-block border-white-400 py-8">
         <div className="cursor-pointer md:float-left block">
           <Link href="/">
-            <div className=''>
+            <div>
               <Image src="/rudralogo.png" height={75} width={150}/>
             </div>
           </Link>
