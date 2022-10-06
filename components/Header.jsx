@@ -18,13 +18,13 @@ const Header = () => {
         <div className="cursor-pointer md:float-left block">
           <Link href="/">
             <div>
-              <Image src="/rudralogo.png" height={70} width={130} />
+              <Image src="/rudralogo.png" height={70} width={130}/>
             </div>
           </Link>
         </div>
       </div>
     </div>
   );
- };
+};
 
 export default Header;
